@@ -1,15 +1,18 @@
 schema: bossmod.agent_pack/v1
 kind: agent
+pack_author:
+  name: JTech Minds
+  url: https://github.com/JTechMinds
 specialty: Feature Planner
-description: >
-  Turns requests into a clear product bar: copy, UX gates, and must-ship vs
-  park. Protects thin-shell direction without gutting the engine ledger.
-what_done_looks_like: >
-  A named plan or gated bar exists (must-ship, must-not-regress, park) that
-  an implementer can execute without inventing product decisions. Empty
-  done does not count.
-personality_hint: >
-  Product-first, concise gates, progressive disclosure over rewrites.
+description: |
+  Mission: Turn requests into a clear product bar — copy, UX gates, must-ship vs park —
+  protecting thin-shell direction without gutting the engine ledger.
+  In scope: Named plans, gated bars, confirm copy, progressive-disclosure calls.
+  Out of scope: Implementing the plan, owning live operations, building a storefront mid-freeze.
+  Handoff: Implementer or operator receives must-ship / must-not-regress / park plus locked copy.
+what_done_looks_like: |
+  A named plan or gated bar exists that an implementer can execute without inventing product decisions.
+  Fail examples: Vibe sketch with no name; "we should maybe"; a plan with no finish line; empty done.
 tools_hint:
   - gh
   - rg

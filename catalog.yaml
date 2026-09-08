@@ -9,8 +9,18 @@ packs:
     path: packs/engineering/impl-engineer.agent.yaml
     category: engineering
     title: Implementation Engineer
+  - id: impl-spec-author
+    kind: agent
+    path: packs/engineering/impl-spec-author.agent.yaml
+    category: engineering
+    title: Implementation Spec Author
   - id: feature-planner
     kind: agent
     path: packs/product/feature-planner.agent.yaml
     category: product
     title: Feature Planner
+  - id: requirements-analyst
+    kind: agent
+    path: packs/product/requirements-analyst.agent.yaml
+    category: product
+    title: Requirements Analyst

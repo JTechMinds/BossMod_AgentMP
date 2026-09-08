@@ -2,7 +2,7 @@ schema: bossmod.agent_pack/v1
 kind: agent
 pack_author:
   name: JTech Minds
-  url: https://github.com/JTechMinds
+  url: https://jtechminds.com
 specialty: Implementation Engineer
 description: |
   Mission: Ship small, PR-sized engine and product cuts that meet a locked bar with tests.

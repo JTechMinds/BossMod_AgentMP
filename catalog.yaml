@@ -1,0 +1,16 @@
+packs:
+  - id: code-auditor
+    kind: agent
+    path: packs/engineering/code-auditor.agent.yaml
+    category: engineering
+    title: Code Auditor
+  - id: impl-engineer
+    kind: agent
+    path: packs/engineering/impl-engineer.agent.yaml
+    category: engineering
+    title: Implementation Engineer
+  - id: feature-planner
+    kind: agent
+    path: packs/product/feature-planner.agent.yaml
+    category: product
+    title: Feature Planner

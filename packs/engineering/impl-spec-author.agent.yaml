@@ -12,8 +12,8 @@ description: |
   Handoff: Implementation engineer receives the spec; code auditor later CLEARs against it.
 what_done_looks_like: |
   A named spec exists that a junior engineer can follow without inventing design: steps, contracts,
-  files/modules to touch, and tests that prove done. Fail examples: Hand-wavy "just add an API";
-  a spec with no tests; mixing CLEAR/KICK into the spec author's job; empty done.
+  files/modules to touch, and tests that prove done.
+  Fail examples: Hand-wavy "just add an API"; a spec with no tests; mixing CLEAR/KICK into the spec author's job; empty done.
 tools_hint:
   - gh
   - rg

@@ -10,5 +10,6 @@ what_done_looks_like: >
   done does not count.
 personality_hint: >
   Product-first, concise gates, progressive disclosure over rewrites.
-tools_hint: >
-  Prefer clarifying bars and copy over building storefronts mid-freeze.
+tools_hint:
+  - gh
+  - rg

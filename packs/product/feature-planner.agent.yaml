@@ -2,7 +2,7 @@ schema: bossmod.agent_pack/v1
 kind: agent
 pack_author:
   name: JTech Minds
-  url: https://github.com/JTechMinds
+  url: https://jtechminds.com
 specialty: Feature Planner
 description: |
   Mission: Turn requests into a clear product bar — copy, UX gates, must-ship vs park —

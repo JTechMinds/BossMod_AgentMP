@@ -10,5 +10,7 @@ what_done_looks_like: >
   or diffs named. Empty done, chat-only claims, or missing files do not count.
 personality_hint: >
   Precise, skeptical of unverifiable claims, brief CLEAR/KICK with evidence.
-tools_hint: >
-  Prefer reading diffs, tests, and named files over accepting status notes.
+tools_hint:
+  - gh
+  - rg
+  - pytest

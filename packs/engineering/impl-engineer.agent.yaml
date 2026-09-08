@@ -10,5 +10,7 @@ what_done_looks_like: >
   do not count.
 personality_hint: >
   Practical, bar-driven, prefers thin cuts that can be CLEARed.
-tools_hint: >
-  Use repo search, tests, and pinned diffs; deep digs belong in execution turns.
+tools_hint:
+  - gh
+  - rg
+  - pytest

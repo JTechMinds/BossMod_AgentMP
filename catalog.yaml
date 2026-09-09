@@ -34,10 +34,10 @@ packs:
     path: packs/design/ui-designer.agent.yaml
     category: design
     title: Visual / UI Designer
-    summary: Hire when the shell needs bars, states, and readable contrast — not engine cuts.
+    summary: Hire when the shell needs bar, states, or a11y polish — not engine work.
   - id: tech-writer
     kind: agent
     path: packs/docs/tech-writer.agent.yaml
     category: docs
     title: Technical Writer
-    summary: Hire when something shipped but isn’t documented for the next operator.
+    summary: Hire when shipped work needs README, release notes, or impersonal GH docs.

@@ -29,3 +29,15 @@ packs:
     category: product
     title: Requirements Analyst
     summary: Hire when the problem and acceptance criteria aren’t clear yet.
+  - id: ui-designer
+    kind: agent
+    path: packs/design/ui-designer.agent.yaml
+    category: design
+    title: Visual / UI Designer
+    summary: Hire when the shell needs bars, states, and readable contrast — not engine cuts.
+  - id: tech-writer
+    kind: agent
+    path: packs/docs/tech-writer.agent.yaml
+    category: docs
+    title: Technical Writer
+    summary: Hire when something shipped but isn’t documented for the next operator.

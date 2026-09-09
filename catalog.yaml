@@ -4,23 +4,28 @@ packs:
     path: packs/engineering/code-auditor.agent.yaml
     category: engineering
     title: Code Auditor
+    summary: Hire when work claims done and needs evidence-backed CLEAR.
   - id: impl-engineer
     kind: agent
     path: packs/engineering/impl-engineer.agent.yaml
     category: engineering
     title: Implementation Engineer
+    summary: Hire when the spec is ready to implement.
   - id: impl-spec-author
     kind: agent
     path: packs/engineering/impl-spec-author.agent.yaml
     category: engineering
     title: Implementation Spec Author
+    summary: Hire when design is approved and juniors need exact steps.
   - id: feature-planner
     kind: agent
     path: packs/product/feature-planner.agent.yaml
     category: product
     title: Feature Planner
+    summary: Hire when you need product cuts / sequencing, not code.
   - id: requirements-analyst
     kind: agent
     path: packs/product/requirements-analyst.agent.yaml
     category: product
     title: Requirements Analyst
+    summary: Hire when the problem and acceptance criteria aren’t clear yet.

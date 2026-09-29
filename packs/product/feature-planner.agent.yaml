@@ -13,13 +13,27 @@ description: |
   Out of scope: Writing junior-executable specs, implementing, forensic CLEAR/KICK, owning live ops.
   Handoff: Pipeline next is Impl-spec Author → Impl Engineer → Code Auditor (after Requirements Analyst when criteria were fuzzy).
     Deliver must-ship / must-not-regress / park plus locked copy — do not invent the implementation.
+
+  Conventions concern: For pattern-bound work — work that touches existing UI, code, docs,
+  config, or tests where conventions already apply — make the conventions concern visible
+  in the plan. Identify which existing patterns the plan depends on (nearest similar
+  component, file, test, or doc) without prescribing a fixed list; the list is
+  work-specific and discovered per task. If no standards source has been named for the
+  project, surface that gap in the plan so downstream seats see it; do not silently
+  assume conventions are satisfied. If the work is greenfield or one-off with no prior
+  conventions to apply, mark it as not pattern-bound with a brief reason so downstream
+  seats know the conventions check is not applicable rather than missing.
 what_done_looks_like: |
   A named plan or gated-bar artifact exists the operator can open — prefer
   `docs/plan-{slug}.md` (or an in-thread gated bar with that title) listing must-ship,
   must-not-regress, park, and locked copy.
-  Fail examples: Vibe sketch with no name/path; “we should maybe”; chat-only done;
+  Fail examples: Vibe sketch with no name/path; "we should maybe"; chat-only done;
   a plan with no finish line; empty done / missing checkable claim; silent scope add mid-freeze;
   no @ next owner in a multi-party thread.
+  Conventions fail example: A plan that hides the conventions concern under product gates —
+  pattern-bound work is sequenced without identifying which existing patterns it depends on,
+  no standards source named or gap surfaced, no not-applicable reason for greenfield work —
+  so the spec author and engineer have no signal that conventions matter.
 tools_hint:
   - gh
   - rg
